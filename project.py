@@ -36,7 +36,7 @@ class Cafe:
             total += item.price
         print(f"Total: ${total:.2f}")
 
-# Sample run
+
 cafe = Cafe()
 cafe.add_menu_item("Espresso", 2.5)
 cafe.add_menu_item("Cappuccino", 3.0)
